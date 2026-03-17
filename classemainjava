@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Cachorro cachorro = new Cachorro("Rex", 20.5, "Labrador");
+        Gato gato = new Gato("Mimi", 4.2, "Preto");
+
+        System.out.println("Dados do Cachorro:");
+        cachorro.mostrarAnimal();
+
+        System.out.println();
+
+        System.out.println("Dados do Gato:");
+        gato.mostrarAnimal();
+    }
+}
